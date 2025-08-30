@@ -1,10 +1,10 @@
-Spotify Data Analysis Project
-Overview
+##Spotify Data Analysis Project
+#Overview
 
 This project is an end-to-end data analysis pipeline using Spotify live data.
 We fetch data directly from the Spotify Web API using Python, clean it, analyze trends, and create visual dashboards for insights.
 
-Workflow (Phases)
+##Workflow (Phases)
 
 Data Collection → Fetch live Spotify data (tracks, artists, playlists) using the Spotipy SDK.
 
@@ -16,7 +16,7 @@ Database Integration → Store cleaned data in MySQL/Postgres.
 
 Visualization → Build dashboards (Power BI/Tableau/Metabase) to present insights.
 
-Project Structure
+##Project Structure
 spotify-data-analysis/
 ├── data/                # raw & cleaned datasets
 ├── notebooks/           # Jupyter notebooks (data cleaning, EDA)
@@ -26,7 +26,6 @@ spotify-data-analysis/
 ├── README.md            # Project documentation
 └── requirements.txt     # Dependencies
 
-Tech Stack
 
 Python (pandas, numpy, matplotlib, seaborn)
 
@@ -40,13 +39,13 @@ Visualization Tool (Power BI / Tableau / Metabase)
 
 How to Run
 
-Clone the repo:
+##Clone the repo:
 
 git clone https://github.com/<your-username>/spotify-data-analysis.git
 cd spotify-data-analysis
 
 
-Create a virtual environment and install dependencies:
+##Create a virtual environment and install dependencies:
 
 pip install -r requirements.txt
 
@@ -65,7 +64,7 @@ Energy vs. danceability correlation
 
 Yearly trends in Spotify tracks
 
-Status
+##Status
 
 Phase 1: Repo setup
 
