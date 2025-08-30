@@ -5,3 +5,4 @@ seaborn
 spotipy
 mysql-connector-python
 psychopg2-binary
+python-dotenv
